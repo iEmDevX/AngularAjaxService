@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { AjaxService } from './services/ajax.service';
-import { promise } from 'protractor';
 
 const URLS = {
   GET_USER: 'https://jsonplaceholder.typicode.com/users'
