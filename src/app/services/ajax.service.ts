@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { catchError, map } from 'rxjs/operators';
 import { empty } from 'rxjs';
-
 @Injectable()
 export class AjaxService {
 
@@ -12,7 +11,7 @@ export class AjaxService {
 
   constructor(
     private httpClient: HttpClient,
-    private router: Router
+    private router: Router,
   ) { }
 
   doPost(url: string, body: any) {
@@ -38,6 +37,7 @@ export class AjaxService {
             console.error('Message Error => ', err, caught);
           }
         }
+        // tslint:disable-next-line: deprecation
         return empty();
       })
     );
@@ -91,6 +91,7 @@ export class AjaxService {
         console.error('Message Error => ', err, caught);
       }
     }
+    // tslint:disable-next-line: deprecation
     return empty();
   }
 
