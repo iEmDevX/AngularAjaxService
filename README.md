@@ -6,7 +6,7 @@ This example of Ajax Service use Rest method to request data and subscribe to va
 
 ## [](https://github.com/iEmDevX/AngularAjaxService#development-server)Development server
 
-Run  `**ng serve**`  for a dev server. Navigate to  `**http://localhost:4200/**`. The app will automatically reload if you change any of the source files.
+Run  `**npm run start**`  for a dev server. Navigate to  `**http://localhost:4201/**`. The app will automatically reload if you change any of the source files.
 
 ## [](https://github.com/iEmDevX/AngularAjaxService#code-scaffolding)Code scaffolding
 
@@ -14,7 +14,7 @@ Run  `**ng generate component component-nam**e`  to generate a new component. Yo
 
 ## [](https://github.com/iEmDevX/AngularAjaxService#build)Build
 
-Run  `npm run build`  or `yarn run build` to build the project. The build artifacts will be stored in the  `dist/`  directory. Use the  `--prod=true`  flag for a production build.
+Run  `**npm run build**`  or `**yarn run build**` to build the project. The build artifacts will be stored in the  `dist/`  directory. Use the  `**--prod=true**`  flag for a production build.
 
 
 
